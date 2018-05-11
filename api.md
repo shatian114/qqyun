@@ -3,4 +3,7 @@
 所有接口的参数如果传入有误，会返回参数说明，如登陆接口，需要传入*passwd*参数，值为参数，如果传的不是*passwd*，则会返回本接口的说明。
 
 ### 登陆 **login.php**
-参数：*passwd*，值为密码
+参数：*passwd*：值为密码
+
+### 修改密码 **changePasswd.php**
+参数：*oldPasswd*：旧密码*newPasswd*：新密码
